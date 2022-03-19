@@ -1,6 +1,6 @@
 fun main(){
-    var sum=multiplication(arrayOf(5,10,5,14,54,2))
-    println(sum)
+    var multi=multiplication(arrayOf(5,10,5,14,54,2))
+    println(multi)
     var inAll=addAll(arrayOf("halima",5,"james",13.45,5.34,"jane",4.5))
     println(inAll)
    var add= char(arrayOf('a','b','f','g','q','c','e','u'))
@@ -9,10 +9,10 @@ fun main(){
 
 }
 fun multiplication(numbers:Array<Int>):Int{
-    var sum=0
+    var multi=1
     for (y in numbers)
-        sum+=y
-    return sum
+        multi*=y
+    return multi
 }
 fun addAll(All: Array<Any>):Number{
     var inAll=0.0
